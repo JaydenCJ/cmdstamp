@@ -1,0 +1,12 @@
+# build artifacts
+/cmdstamp
+/dist/
+*.test
+
+# coverage
+coverage.out
+coverage.html
+
+# editor droppings
+*.swp
+.DS_Store

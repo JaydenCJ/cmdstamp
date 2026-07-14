@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "stamps": {
+    "hello-help": {
+      "command": ["./hello.sh", "--help"],
+      "files": ["GUIDE.md"],
+      "format": "code",
+      "lang": "text"
+    },
+    "greet-example": {
+      "command": ["./hello.sh", "greet", "docs"],
+      "files": ["GUIDE.md"],
+      "format": "code",
+      "lang": "text"
+    },
+    "langs-table": {
+      "shell": "./hello.sh langs | while read -r l; do echo \"- \\`$l\\`\"; done",
+      "files": ["GUIDE.md"],
+      "format": "raw"
+    }
+  }
+}
